@@ -157,4 +157,9 @@ public class ATMController {
         return "user/login";
     }
 
+    @GetMapping(value = "/error")
+    public String error() {
+        return "error";
+    }
+
 }

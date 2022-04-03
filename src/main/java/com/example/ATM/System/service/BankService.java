@@ -26,7 +26,6 @@ public class BankService {
     public User saveUser(User user) {
         return bankAccountRepository.save(user);
     }
-
     public User findByCardNumber(String s){
         return bankAccountRepository.findByCardNumber(s);
     }
